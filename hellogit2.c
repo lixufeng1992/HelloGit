@@ -3,8 +3,12 @@
 int
 main(int argc, char* argv[]){
 
-	printf("this is my second time to say hello to git\n");
-	return -1;//some error happened,return -1
+
+
 	exit(-1);//dead code 
 	
+	for(int i = 0; i < 100; i++){
+		printf("curr=%d\n",i);
+	}	
+	return 0;
 }
